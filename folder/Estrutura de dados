@@ -1,0 +1,17 @@
+package atividaderevisao;
+
+import java.util.Scanner;
+
+public class Atividade1Revisao {
+    public static void main(String[] args) {
+        System.out.println("Escreva aqui o número: ");
+         int cont=0, num;
+        Scanner teclado=new Scanner(System.in);
+        num=teclado.nextInt();
+        while (cont<=10){
+            System.out.println("O resultado da tabuada é:"+num*cont);
+            cont++;
+        }
+    }
+    
+}
